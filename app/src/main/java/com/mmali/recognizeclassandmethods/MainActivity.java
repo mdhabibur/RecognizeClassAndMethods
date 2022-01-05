@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void showThirdCommit() {
         Toast.makeText(MainActivity.this, "This is third commit to this repository", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Third commit failed first time", Toast.LENGTH_SHORT).show();
 
     }
 
