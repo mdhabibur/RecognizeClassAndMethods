@@ -22,13 +22,21 @@ public class MainActivity extends AppCompatActivity {
         //reserved keys are marked in blue color in android studio and you can't use them to write your variables
 
         showSecondCommit();
+        showThirdCommit();
 
 
 
     }
 
+
+
     public void showSecondCommit(){
         Toast.makeText(MainActivity.this, "This is second commit to this repository", Toast.LENGTH_SHORT).show();
+    }
+
+    private void showThirdCommit() {
+        Toast.makeText(MainActivity.this, "This is third commit to this repository", Toast.LENGTH_SHORT).show();
+
     }
 
 }
